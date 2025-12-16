@@ -305,23 +305,18 @@ export const testimonials = [
 
 export const galleryItems = [
   {
-    type: 'image',
-    src: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800',
-    alt: 'Haircut',
-  },
-  {
-    type: 'image',
-    src: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800',
-    alt: 'Beard Trim',
-  },
-  {
-    type: 'image',
-    src: 'https://images.unsplash.com/photo-1599351431202-6e0000000000?auto=format&fit=crop&q=80&w=800',
-    alt: 'Shop Interior',
+    type: 'instagram',
+    src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
+    alt: 'Viral Haircut Reel 1',
   },
   {
     type: 'instagram',
     src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
-    alt: 'Happiness is a good hair day✨ #viral #trending #reelsinstagram',
+    alt: 'Viral Haircut Reel 2',
+  },
+  {
+    type: 'instagram',
+    src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
+    alt: 'Viral Haircut Reel 3',
   },
 ];
