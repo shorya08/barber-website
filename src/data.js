@@ -307,16 +307,26 @@ export const galleryItems = [
   {
     type: 'instagram',
     src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
-    alt: 'Viral Haircut Reel 1',
+    alt: 'Trendsetter Cut #1',
   },
   {
     type: 'instagram',
     src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
-    alt: 'Viral Haircut Reel 2',
+    alt: 'Trendsetter Cut #2',
   },
   {
     type: 'instagram',
     src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
-    alt: 'Viral Haircut Reel 3',
+    alt: 'Trendsetter Cut #3',
+  },
+  {
+    type: 'instagram',
+    src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
+    alt: 'Trendsetter Cut #4',
+  },
+  {
+    type: 'instagram',
+    src: 'https://www.instagram.com/reel/DRtcAz_E5NZ/embed',
+    alt: 'Trendsetter Cut #5',
   },
 ];
