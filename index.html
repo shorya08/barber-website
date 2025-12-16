@@ -1,186 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bittu’s Prime Barber Studio - Premium men's grooming, haircuts, fades, and beard styling in India. Book your appointment online today."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Bittu’s Prime Barber Studio - Premium men's grooming, haircuts, fades, and beard styling in India. Book your appointment online today." />
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="src/style.css">
+    <title>Bittu’s Prime Barber Studio | Premium Men's Grooming</title>
+  </head>
 
-  <title>Bittu’s Prime Barber Studio | Premium Men's Grooming</title>
-</head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="/" class="logo"
+          >Bittu’s <span class="text-primary">Prime</span></a
+        >
 
-<body>
-  <header class="header">
-    <div class="container header-container">
-      <a href="/" class="logo">Bittu’s <span class="text-primary">Prime</span></a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+          <div class="hamburger"></div>
+        </button>
 
-      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-        <span class="sr-only">Menu</span>
-        <div class="hamburger"></div>
-      </button>
-
-      <nav>
-        <ul id="primary-navigation" class="primary-navigation" data-visible="false">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="booking.html" class="btn btn-nav">Book Now</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <!-- Hero Section -->
-    <section id="home" class="hero section">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content text-center">
-        <h1 class="hero-title">Refine Your Style at <br /> <span class="text-primary">Bittu's Prime</span></h1>
-        <p class="hero-subtitle">Experience the art of premium grooming.</p>
-        <div class="hero-btns">
-          <a href="booking.html" class="btn">Book Appointment</a>
-          <a href="#services" class="btn btn-outline">View Services</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Intro / About Section -->
-    <section id="about" class="section about-section">
-      <div class="container grid grid-2">
-        <div class="about-image">
-          <!-- Placeholder for barber profile/shop image -->
-          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=800"
-            alt="Barber Shop Interior" loading="lazy">
-        </div>
-        <div class="about-content">
-          <h2>Mastering the Art of <span class="text-primary">Grooming</span></h2>
-          <p class="mb-2">With over 10 years of experience, Bittu’s Prime Barber Studio is dedicated to providing
-            top-tier cuts, shaves, and styling for the modern man. We believe in precision, hygiene, and a relaxing
-            atmosphere.</p>
-          <ul class="feature-list mb-2">
-            <li>✓ Professional Stylists</li>
-            <li>✓ Premium Products</li>
-            <li>✓ Hygienic Environment</li>
+        <nav>
+          <ul
+            id="primary-navigation"
+            class="primary-navigation"
+            data-visible="false"
+          >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="booking.html" class="btn btn-nav">Book Now</a></li>
           </ul>
-          <a href="#contact" class="btn btn-outline">Visit Us</a>
-        </div>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- Services Section -->
-    <section id="services" class="section bg-surface">
-      <div class="container">
-        <div class="text-center mb-2">
-          <h2>Our <span class="text-primary">Services</span></h2>
-          <p class="text-muted">Precision cuts and luxury shaves designed for you.</p>
-        </div>
-        <div id="services-container" class="services-grid">
-          <!-- Dynamic Content -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="section">
-      <div class="container">
-        <div class="text-center mb-2">
-          <h2>Our <span class="text-primary">Work</span></h2>
-          <p class="text-muted">A showcase of our latest styles and transformations.</p>
-        </div>
-        <div id="gallery-container" class="gallery-grid grid grid-3">
-          <!-- Dynamic Content -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="section bg-surface">
-      <div class="container">
-        <div class="text-center mb-2">
-          <h2>Client <span class="text-primary">Testimonials</span></h2>
-          <p class="text-muted">What our customers say about us.</p>
-        </div>
-        <div id="testimonials-container" class="testimonials-grid grid grid-3">
-          <!-- Dynamic Content -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container grid grid-2">
-        <div class="contact-info">
-          <h2>Visit <span class="text-primary">Us</span></h2>
-          <p class="mb-2">We are located in the heart of the city. Walk-ins welcome, bookings recommended.</p>
-
-          <div class="info-item">
-            <h4>Address</h4>
-            <p>Shop No. 12, Main Market Road,<br>Sector 15, Your City, India</p>
-          </div>
-          <div class="info-item">
-            <h4>Hours</h4>
-            <p>Mon - Sun: 9:00 AM - 9:00 PM</p>
-          </div>
-          <div class="info-item">
-            <h4>Contact</h4>
-            <p>+91 83073 56621</p>
-            <p>bittukumar6311@gmail.com</p>
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center">
+          <h1 class="hero-title">
+            Refine Your Style at <br />
+            <span class="text-primary">Bittu's Prime</span>
+          </h1>
+          <p class="hero-subtitle">Experience the art of premium grooming.</p>
+          <div class="hero-btns">
+            <a href="booking.html" class="btn">Book Appointment</a>
+            <a href="#services" class="btn btn-outline">View Services</a>
           </div>
         </div>
-        <div class="map-container">
-          <!-- Placeholder Map -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.1128552123!2d77.0!3d28.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMwJzAwLjAiTiA3N8KwMDAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
-            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <!-- Intro / About Section -->
+      <section id="about" class="section about-section">
+        <div class="container grid grid-2">
+          <div class="about-image">
+            <!-- Placeholder for barber profile/shop image -->
+            <img
+              src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=800"
+              alt="Barber Shop Interior"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-content">
+            <h2>
+              Mastering the Art of <span class="text-primary">Grooming</span>
+            </h2>
+            <p class="mb-2">
+              With over 10 years of experience, Bittu’s Prime Barber Studio is
+              dedicated to providing top-tier cuts, shaves, and styling for the
+              modern man. We believe in precision, hygiene, and a relaxing
+              atmosphere.
+            </p>
+            <ul class="feature-list mb-2">
+              <li>✓ Professional Stylists</li>
+              <li>✓ Premium Products</li>
+              <li>✓ Hygienic Environment</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Visit Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section bg-surface">
+        <div class="container">
+          <div class="text-center mb-2">
+            <h2>Our <span class="text-primary">Services</span></h2>
+            <p class="text-muted">
+              Precision cuts and luxury shaves designed for you.
+            </p>
+          </div>
+          <div id="services-container" class="services-grid">
+            <!-- Dynamic Content -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="section">
+        <div class="container">
+          <div class="text-center mb-2">
+            <h2>Our <span class="text-primary">Work</span></h2>
+            <p class="text-muted">
+              A showcase of our latest styles and transformations.
+            </p>
+          </div>
+          <div id="gallery-container" class="gallery-grid grid grid-3">
+            <!-- Dynamic Content -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="section bg-surface">
+        <div class="container">
+          <div class="text-center mb-2">
+            <h2>Client <span class="text-primary">Testimonials</span></h2>
+            <p class="text-muted">What our customers say about us.</p>
+          </div>
+          <div
+            id="testimonials-container"
+            class="testimonials-grid grid grid-3"
+          >
+            <!-- Dynamic Content -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="container grid grid-2">
+          <div class="contact-info">
+            <h2>Visit <span class="text-primary">Us</span></h2>
+            <p class="mb-2">
+              We are located in the heart of the city. Walk-ins welcome,
+              bookings recommended.
+            </p>
+
+            <div class="info-item">
+              <h4>Address</h4>
+              <p>
+                Shop No. 12, Main Market Road,<br />Sector 15, Your City, India
+              </p>
+            </div>
+            <div class="info-item">
+              <h4>Hours</h4>
+              <p>Mon - Sun: 9:00 AM - 9:00 PM</p>
+            </div>
+            <div class="info-item">
+              <h4>Contact</h4>
+              <p>+91 83073 56621</p>
+              <p>bittukumar6311@gmail.com</p>
+            </div>
+          </div>
+          <div class="map-container">
+            <!-- Placeholder Map -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.1128552123!2d77.0!3d28.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMwJzAwLjAiTiA3N8KwMDAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container grid grid-3">
+        <div class="footer-brand">
+          <h3>Bittu’s <span class="text-primary">Prime</span></h3>
+          <p>Premium grooming for the modern gentleman.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="booking.html">Book Appointment</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>+91 83073 56621</p>
+          <p>bittukumar6311@gmail.com</p>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="https://wa.me/918307356621">WhatsApp</a>
+          </div>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer section">
-    <div class="container grid grid-3">
-      <div class="footer-brand">
-        <h3>Bittu’s <span class="text-primary">Prime</span></h3>
-        <p>Premium grooming for the modern gentleman.</p>
+      <div class="container text-center copyright">
+        <p>&copy; 2025 Bittu’s Prime Barber Studio. All rights reserved.</p>
       </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="booking.html">Book Appointment</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact Us</h4>
-        <p>+91 83073 56621</p>
-        <p>bittukumar6311@gmail.com</p>
-        <div class="social-links">
-          <a href="#">Instagram</a>
-          <a href="https://wa.me/918307356621">WhatsApp</a>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center copyright">
-      <p>&copy; 2025 Bittu’s Prime Barber Studio. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
 
-  <script type="module" src="/src/main.js"></script>
-</body>
-
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

@@ -1,13 +1,13 @@
 :root {
   /* Colors */
   --color-bg: #121212;
-  --color-surface: #1E1E1E;
-  --color-surface-hover: #2A2A2A;
-  --color-primary: #D4AF37;
+  --color-surface: #1e1e1e;
+  --color-surface-hover: #2a2a2a;
+  --color-primary: #d4af37;
   /* Gold */
-  --color-primary-hover: #C5A028;
-  --color-text-main: #FFFFFF;
-  --color-text-muted: #B0B0B0;
+  --color-primary-hover: #c5a028;
+  --color-text-main: #ffffff;
+  --color-text-muted: #b0b0b0;
   --color-border: #333333;
 
   /* Typography */
@@ -221,7 +221,7 @@ ul {
     z-index: 100;
   }
 
-  .primary-navigation[data-visible="true"] {
+  .primary-navigation[data-visible='true'] {
     transform: translateX(0%);
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   }
@@ -266,16 +266,16 @@ ul {
     bottom: -6px;
   }
 
-  .mobile-nav-toggle[aria-expanded="true"] .hamburger {
+  .mobile-nav-toggle[aria-expanded='true'] .hamburger {
     background: transparent;
   }
 
-  .mobile-nav-toggle[aria-expanded="true"] .hamburger::before {
+  .mobile-nav-toggle[aria-expanded='true'] .hamburger::before {
     transform: rotate(45deg);
     top: 0;
   }
 
-  .mobile-nav-toggle[aria-expanded="true"] .hamburger::after {
+  .mobile-nav-toggle[aria-expanded='true'] .hamburger::after {
     transform: rotate(-45deg);
     top: 0;
   }
