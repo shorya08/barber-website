@@ -4,6 +4,7 @@ import {
   galleryItems,
   testimonials,
 } from './data.js';
+import { initBeforeAfter } from './components/BeforeAfter.js';
 
 // --- Mobile Navigation Toggle ---
 const navToggle = document.querySelector('.mobile-nav-toggle');
@@ -140,4 +141,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderGallery();
   renderTestimonials();
   initBooking();
+  initBeforeAfter();
 });
