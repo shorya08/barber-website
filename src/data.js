@@ -6,7 +6,7 @@ export const businessDetails = {
   address: 'Your Shop Address Here, India', // Placeholder, user didn't provide specific address text
   mapEmbedUrl: 'https://www.google.com/maps/embed?pb=...', // Placeholder
   social: {
-    instagram: '#',
+    instagram: 'https://www.instagram.com/reel/DRtcAz_E5NZ/?igsh=MTF0OTVpcXo2MW80YQ==',
     whatsapp: 'https://wa.me/918307356621',
   },
 };
