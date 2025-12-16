@@ -3,4 +3,5 @@ export default {
     port: 5173,
     host: true, // Expose to network/localhost
   },
+  base: '/barber-website/',
 };
